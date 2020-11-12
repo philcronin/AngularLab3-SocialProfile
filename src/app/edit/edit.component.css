@@ -1,0 +1,59 @@
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+  color: #505355;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.edit-heading {
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.edit-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-labels {
+  color: #1ecefd;
+  font-weight: 700;
+  padding: 10px 0px 10px;
+}
+
+.button {
+  background-color: #505355;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 12px;
+  height: 60px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  border: 0;
+}
+
+.input-box {
+  height: 40px;
+  border-radius: 12px;
+  border: 2pt black solid;
+  padding-left: 12px;
+}
+
+.bio-input-box {
+  height: 100px;
+  border-radius: 12px;
+  padding-left: 12px;
+  border: 2pt black solid;
+}
+
+button:hover {
+  background-color: #5becd8;
+}
